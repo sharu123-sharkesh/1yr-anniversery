@@ -7,7 +7,7 @@ const OpeningAnimation = ({ animateOut }) => {
     let disabled = true;
     const end = Date.now() + 2000;
 
-    const colors = ["#bb0000", "#ffffff"];
+    const colors = ["#c0392b", "#f8d7da", "#ff69b4"];
 
     const frame = () => {
       confetti({
@@ -41,7 +41,7 @@ const OpeningAnimation = ({ animateOut }) => {
   }, 6800);
 
   return (
-    <main className={`bg-[#ee9ca7] w-full h-screen overflow-hidden absolute top-0 left-0 loader-wrapper ${animateOut ? 'slide-up-fade-out' : ''}`}>
+    <main className={`w-full h-screen overflow-hidden absolute top-0 left-0 loader-wrapper ${animateOut ? 'slide-up-fade-out' : ''}`} style={{ background: 'linear-gradient(135deg, #1a0010 0%, #3d0030 40%, #7a1040 70%, #c0392b 100%)' }}>
       {/* --- SVG Decoration Container --- */}
       <svg className="full-screen-deco" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
         {/* Large, slow-moving circle (soft cloud/bubble) - existing */}
@@ -108,8 +108,8 @@ const OpeningAnimation = ({ animateOut }) => {
 
 
           <div className="MUNNA cakeText">
-            <h1 className="MUNNA cakeText-title">Happy 21st Birthday!</h1>
-            <div className="MUNNA cakeText-name">Srudhi <div className="MUNNA cakeText-kitty-bow"></div></div>
+            <h1 className="MUNNA cakeText-title">Happy 1st Anniversary! 💕</h1>
+            <div className="MUNNA cakeText-name">Shrii <div className="MUNNA cakeText-kitty-bow"></div></div>
           </div>
 
 

@@ -9,13 +9,13 @@
 }
 
 :root {
-    --color-pink: #feecea;
+    --color-pink: #fce4ec;
     --color-white: #fff;
-    --color-black: #333;
-    --color-text-pink: #FF7882;
-    --color-heart: #FF7882;
-    --color-bg-letter: #fff8e4;
-    --color-border: #DACCBF;
+    --color-black: #2d1515;
+    --color-text-pink: #c0392b;
+    --color-heart: #c0392b;
+    --color-bg-letter: #fff5f5;
+    --color-border: #f4a0a0;
 }
 
 body {

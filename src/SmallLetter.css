@@ -16,7 +16,7 @@
     }
 
     100% {
-        height: 280px;
+        height: 340px;
         width: 100%;
         transform: translateY(0);
     }
@@ -81,13 +81,15 @@
 /* --- Container and State Classes --- */
 
 .small-rajib-letter {
-    margin: 150px auto;
+    margin: 0 auto;
     max-width: 350px;
+    width: 350px;
     height: 375px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     display: block;
 }
+
 
 .small-rajib-letter--open .small-rajib-paper {
     animation-name: upthenscale;
@@ -109,6 +111,23 @@
 
 .small-rajib-letter--open .small-rajib-envelope {
     animation: pause;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+@media screen and (max-width: 658px) {
+    .small-rajib-letter--open .small-rajib-paper {
+        position: fixed;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%) !important;
+        margin: 0;
+        z-index: 200;
+        width: calc(100% - 40px);
+        max-width: 350px;
+    }
 }
 
 /* --- Content and Elements --- */
@@ -128,8 +147,16 @@
     transform: translateY(250px);
     margin: 0 auto;
     transition: transform 0.3s 0.1s ease;
-    border-radius: 2px;
+    border-radius: 4px;
     position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.small-rajib-letter--open .small-rajib-paper {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #c0392b rgba(0, 0, 0, 0.05);
 }
 
 /* --- SVG Container inside the Paper --- */
@@ -411,15 +438,17 @@
         }
 
         100% {
-            height: 280px;
+            height: 380px;
             width: 100%;
             transform: translateY(0);
         }
     }
 
     .small-rajib-paper-content {
-        font-size: 14px;
-        width: 290px;
+        font-size: 15px;
+        width: 100%;
+        padding: 24px;
+        line-height: 1.6;
     }
 
     .small-rajib-envelope-paper {
@@ -457,7 +486,7 @@
 
     .small-rajib-envelope-flap {
         transition: all 300ms ease-in-out;
-	transform: translateY(-6px);
-}
+        transform: translateY(-6px);
+    }
 
 }

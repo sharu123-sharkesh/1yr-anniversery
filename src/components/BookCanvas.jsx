@@ -29,13 +29,13 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card1">
                     <div className="cover-text-wrapper">
                         <h4 className="username">
-                            Dear Srudhi<span className="underline"></span>
+                            Dear Shrii<span className="underline"></span>
                         </h4>
                         <h3 className="cover-title">
-                            Happy Birthday!
+                            Happy 1st Anniversary! 💕
                         </h3>
                         <p className="cover-subtitle">
-                            A purr-fect message just for you... 💌
+                            A heartfelt message just for you... 💌
                         </p>
                     </div>
 
@@ -63,22 +63,22 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card2">
                     <div className="card2-content">
                         <h3 className="card2-recipient">
-                            To You!
+                            To My Shrii 💕
                         </h3>
 
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic" style={{ fontSize: '15px', lineHeight: '1.5' }}>
-                            <article style={{ marginBottom: '10px' }}>From the first moment I saw you, something in my life quietly changed. That simple day—meeting you, walking together, and watching a movie—became a memory my heart will never forget.</article>
-                            <article style={{ marginBottom: '10px' }}>You brought a kind of warmth and peace into my life that I didn’t even know I was missing. Somehow, being with you makes everything feel softer, brighter, and more meaningful.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want to promise you this: your happiness will always matter the most to me. No matter what life brings, I will always choose you, stand beside you, and be honest with you.</article>
-                            <article style={{ marginBottom: '10px' }}>You’re not just someone who came into my life… you are my life and my everything.</article>
-                            <article style={{ marginBottom: '10px' }}>For you, I would do anything. Nothing in this world matters more to me than you. Your smile, your happiness, and your peace will always be my first priority.</article>
-                            <article style={{ marginBottom: '10px' }}>I always choose to say sorry, because you are more important to me than my pride. A relationship is not about winning arguments—it is about protecting each other’s hearts.</article>
-                            <article style={{ marginBottom: '10px' }}>In my heart there is no ego, no jealousy, and no betrayal—only a pure heart that truly loves you.</article>
-                            <article style={{ marginBottom: '10px' }}>You are the only girl I talk to and share my happiness with. I don’t imagine anyone else in your place, because for me there is no replacement for you.</article>
-                            <article style={{ marginBottom: '10px' }}>Just like every child has one mother and one father, in my heart you are my girl, the one who belongs with me.</article>
-                            <article style={{ marginBottom: '10px' }}>My love is simple, honest, and real. I will always respect you, care for you, and stand beside you in every situation.</article>
-                            <article style={{ marginBottom: '10px' }}>My love is simple and true— it is only for you, Srudhi. ❤️</article>
+                            <article style={{ marginBottom: '10px' }}>A year ago, two souls found each other — and since that day, the world has been a more beautiful place. Every moment with you has been a memory my heart will carry forever.</article>
+                            <article style={{ marginBottom: '10px' }}>You walked into my life and brought a warmth I never knew I was missing. With you, even the quietest moments feel like the most precious ones.</article>
+                            <article style={{ marginBottom: '10px' }}>On this special day — our 1st anniversary — I want to promise you this: your happiness will always be my priority. Through every storm and every sunrise, I choose you.</article>
+                            <article style={{ marginBottom: '10px' }}>You are not just someone I love. You are my home, my peace, my favourite person in every version of this life.</article>
+                            <article style={{ marginBottom: '10px' }}>For you, I would cross every distance. Nothing in this world matters more to me than the smile on your face and the peace in your heart.</article>
+                            <article style={{ marginBottom: '10px' }}>I always choose love over ego, because you are more important to me than being right. A true relationship is about protecting each other, not winning against each other.</article>
+                            <article style={{ marginBottom: '10px' }}>In my heart there is no jealousy, no pretending — only a deep, quiet love that grows stronger every single day.</article>
+                            <article style={{ marginBottom: '10px' }}>You are the only one I share my world with. There is no one else in your place, and there never will be — because you are irreplaceable to me.</article>
+                            <article style={{ marginBottom: '10px' }}>365 days of us. 365 reasons to be grateful. And a lifetime more to look forward to.</article>
+                            <article style={{ marginBottom: '10px' }}>My love for you is not loud or showy — it is steady, honest, and forever. I will always respect you, stand beside you, and love you in ways that make you feel safe.</article>
+                            <article style={{ marginBottom: '10px' }}>Happy 1st Anniversary, my Shrii. Here's to forever. 💕</article>
                         </div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
@@ -97,7 +97,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature" style={{ marginTop: '5px' }}>
-                            Your Forever Lover, Sarathi ❤️
+                            Forever Yours, Mani Kunju 💕
                         </p>
                     </div>
                 </div>

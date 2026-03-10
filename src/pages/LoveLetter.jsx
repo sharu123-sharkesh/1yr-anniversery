@@ -7,43 +7,43 @@ const LoveLetter = () => {
     const lettersData = [
         {
             id: 8,
-            name: "Sarathi ❤️",
-            msg: "Life is full of random moments. But meeting you was never random for my heart. So today, I just want to ask you something simple… Will you be my Valentine, the girl my heart chooses today, tomorrow, and every day after?",
+            name: "Mani Kunju ❤️",
+            msg: "One year ago today — March 27, 2025 — was the day I first met you. And in that single moment, my life changed forever. I didn’t know then that you would become my whole world, my Shrii.",
         },
         {
             id: 7,
-            name: "Sarathi",
-            msg: "In my heart there is no ego, no jealousy, and no betrayal. Only a pure heart that loves you. You are the only girl I talk to, laugh with, and share my happiness with. For me… there is only you.",
+            name: "Mani Kunju",
+            msg: "365 days. 12 months. 1 whole year. And every single day, I have been grateful that it was you who walked into my life. You made ordinary days feel extraordinary.",
         },
         {
             id: 6,
-            name: "Sarathi",
-            msg: "I promise you something from my heart. I will always respect you, care for you, and protect your heart. Your happiness will always matter more than my ego or pride. Because loving you means choosing you every day.",
+            name: "Mani Kunju",
+            msg: "I promise you today, on our 1st anniversary, that I will love you more every day than I did the day before. Your happiness is my mission, your smile is my reward.",
         },
         {
             id: 5,
-            name: "Sarathi",
-            msg: "You're not just someone who came into my life. You are my life and my everything. Your smile, your happiness, and your peace mean more to me than anything else in this world.",
+            name: "Mani Kunju",
+            msg: "You are not just my love. You are my best friend, my comfort, my home. Every laugh, every fight, every silent moment together has been a treasure I will hold forever.",
         },
         {
             id: 4,
-            name: "Sarathi",
-            msg: "Then came the day we met. Walking together, traveling, watching a movie… and seeing you in front of me felt unreal. That day you looked so beautiful… like an angel who quietly walked into my life.",
+            name: "Mani Kunju",
+            msg: "I still remember the first time I saw you. My heart skipped a beat. You were so beautiful, so real, so perfectly you. And from that moment, I knew — you were meant to be mine.",
         },
         {
             id: 3,
-            name: "Sarathi",
-            msg: "Day by day, our bond started growing. From simple chats… to laughter… to caring about each other's day. Without even noticing, you slowly became someone very special to me.",
+            name: "Mani Kunju",
+            msg: "Month by month, our love grew deeper. From shy smiles and careful words, to open hearts and unguarded laughter. Thank you for trusting me with your heart, Shrii.",
         },
         {
             id: 2,
-            name: "Sarathi",
-            msg: "For almost two years, I waited for the right person to enter my life. And then you came. It didn't take months for me to realize… within one day, something in my heart already chose you.",
+            name: "Mani Kunju",
+            msg: "Some love stories are written in the stars. But ours? Ours was written in every little message, every late night call, every moment where we chose each other over everything else.",
         },
         {
             id: 1,
-            name: "Sarathi",
-            msg: "It all started with a simple message. Two random people talking because of a small doubt and a project. But that one message quietly started something beautiful in my life.",
+            name: "Mani Kunju",
+            msg: "March 27, 2025 — the day that started it all. One simple meeting. One moment that became the beginning of the most beautiful chapter of my life. Happy 1st Anniversary, my Shrii. 💕",
         },
     ];
     const [openEnvelope, setOpenEnvelope] = useState(false);
@@ -134,8 +134,8 @@ const LoveLetter = () => {
                     </button>
                     <div className="munna envelope-flap text-black relative">
                         <div className='munna absolute left-1/2 top-[20%] -translate-x-1/2 flex items-center justify-center flex-col md:gap-y-2'>
-                            <span className='munna font-sriracha md:text-2xl text-lg'>Envelope Of Love</span>
-                            <span className='munna font-dancingScript md:text-3xl text-xl'>From Sarathi</span>
+                            <span className='munna font-sriracha md:text-2xl text-lg'>Envelope Of Our Anniversary</span>
+                            <span className='munna font-dancingScript md:text-3xl text-xl'>From Mani Kunju 💕</span>
                         </div>
                     </div>
                     <div className="munna envelope-folds">
